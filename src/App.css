@@ -1,0 +1,100 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navBar {
+  background-color: gray;
+}
+
+.navBar .nav {
+  color: white;
+}
+
+.hero {
+  height: 70vh;
+  background-image: url(./images/background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroTitle {
+  font-family: 'Black Ops One', serif;
+  color: navy
+}
+
+#hero-caption {
+  color: navy;
+  font-weight: 700;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.loginForm {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.registerForm {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.addProductForm {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.cardHighlight {
+  min-height: 400px;
+}
+
+.productSearch {
+  margin-right: 70vw;
+}
+
+#contacts {
+  list-style-type: none;
+}
+
+.bg-profile {
+  background-color: lightgray;
+}
+
